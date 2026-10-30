@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -60,7 +62,7 @@ public class PlayerScript : MonoBehaviour
         {
             vel.y = -Speed;
         }
-        
+
         //Finally, I take that variable and I feed it to the component in charge of movement
         RB.linearVelocity = vel;
     }

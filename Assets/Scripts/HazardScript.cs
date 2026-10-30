@@ -23,7 +23,7 @@ public class HazardScript : MonoBehaviour
         Vector3 difference = (PlayerPosition - transform.position).normalized*Time.deltaTime;
         Debug.DrawRay(transform.position, difference, Color.red);
         //transform.position = new Vector3(PlayerPosition.x, PlayerPosition.y, 0)*Speed;
-        //transform.position += difference*Speed;
+        transform.position += difference*(Speed/2);
         if (Player.Score <= 0)
         {
             Speed = Player.Score - 1;
