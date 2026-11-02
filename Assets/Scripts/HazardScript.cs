@@ -30,7 +30,7 @@ public class HazardScript : MonoBehaviour
         }
         else
         {
-            Speed = Player.Score+1;
+            Speed = Player.Score;
         }
         Debug.DrawRay(PlayerPosition, Vector3.up, Color.magenta);
     }
