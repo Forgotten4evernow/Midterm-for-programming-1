@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7832860476026235666}
   - component: {fileID: 5174859155656547723}
   - component: {fileID: 7209079531159087622}
+  - component: {fileID: -6017505112016809396}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -138,3 +139,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-6017505112016809396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434427550689264814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c61e169b31df08e469f431bd7db9e576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WallScript
+  Coin: {fileID: 884353953833806808, guid: 58900fb4884d022449de569809ac06ab, type: 3}
+  Player: {fileID: 5295994739419230840, guid: 5465daea84a2bcb43acd34cbcbb9c9ae, type: 3}
